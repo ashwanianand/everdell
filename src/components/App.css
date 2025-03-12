@@ -149,12 +149,17 @@ h2 {
   }
 
   .card:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.1); */
     box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
   }
 
+
   .expanded {
-    background: #1e1e1e;
+    /* background: #1e1e1e; */
     box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.3);
   }
+
+  /* .effect-text:hover {
+    color: #ccc;
+  } */
 }
