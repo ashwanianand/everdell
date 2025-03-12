@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/everdell/static/css/main.3c099b0e.css",
-    "main.js": "/everdell/static/js/main.725364b2.js",
+    "main.css": "/everdell/static/css/main.b53d5aff.css",
+    "main.js": "/everdell/static/js/main.3b92d7db.js",
     "static/js/453.c763c402.chunk.js": "/everdell/static/js/453.c763c402.chunk.js",
     "index.html": "/everdell/index.html",
-    "main.3c099b0e.css.map": "/everdell/static/css/main.3c099b0e.css.map",
-    "main.725364b2.js.map": "/everdell/static/js/main.725364b2.js.map",
+    "main.b53d5aff.css.map": "/everdell/static/css/main.b53d5aff.css.map",
+    "main.3b92d7db.js.map": "/everdell/static/js/main.3b92d7db.js.map",
     "453.c763c402.chunk.js.map": "/everdell/static/js/453.c763c402.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c099b0e.css",
-    "static/js/main.725364b2.js"
+    "static/css/main.b53d5aff.css",
+    "static/js/main.3b92d7db.js"
   ]
 }
