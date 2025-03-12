@@ -327,7 +327,7 @@ const TermCard = ({ term, cardType }) => {
       // style={{ backgroundColor: color }}
     >
       <div className="card-content">
-        <strong>{term.English}</strong> - {term.German}
+        <strong>{term.German}</strong> - {term.English}
       </div>
       {expanded && <p className="effect-text">{term.Effect}</p>}
     </div>
