@@ -207,10 +207,10 @@ const App = () => {
     setData(jsonData);
   }, []);
 
-  const cardColors = {
-    Critters: "#ffcccb",
-    Constructions: "#add8e6"
-  };
+  // const cardColors = {
+  //   Critters: "#ffcccb",
+  //   Constructions: "#add8e6"
+  // };
 
   // Function to normalize umlauts
   const normalizeUmlauts = (text) => {
@@ -257,7 +257,7 @@ const App = () => {
           <h2 className="type-header">{type}</h2>
           <div className="card-list">
             {terms.map((term, index) => (
-              <TermCard key={index} term={term} color={cardColors[type] || "#ddd"} />
+              <TermCard key={index} term={term} cardType={type.toLowerCase()} />
             ))}
           </div>
         </div>
@@ -267,14 +267,14 @@ const App = () => {
   );
 };
 
-const TermCard = ({ term, color }) => {
+const TermCard = ({ term, cardType }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
     <div
-      className={`card ${expanded ? "expanded" : ""}`}
+      className={`card ${cardType} ${expanded ? "expanded" : ""}`}
       onClick={() => setExpanded(!expanded)}
-      style={{ backgroundColor: color }}
+      // style={{ backgroundColor: color }}
     >
       <div className="card-content">
         <strong>{term.German}</strong> - {term.English}
