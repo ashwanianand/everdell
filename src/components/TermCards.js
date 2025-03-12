@@ -290,8 +290,8 @@ const App = () => {
 
   return (
     <div className={`container`}>
-      <div className="sticky-header">
-      <div class="search-container">
+      {/* <div className="sticky-header"> */}
+      <div className="search-container">
         <h1>Everdell Cards Effects</h1>
         <input
           type="text"
@@ -300,7 +300,7 @@ const App = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
           className="search-bar"
         />
-        </div>
+        {/* </div> */}
       </div>
       {Object.entries(filteredData).map(([type, terms]) => (
         <div key={type}>
